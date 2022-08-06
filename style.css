@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(image.jpg);  
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 15px 10px 0px 60px;
+}
+
+.navbar ul{
+    margin-left: 60px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 60px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    transition: .4s;
+    text-align: center;
+}
+
+.navbar ul li a:hover{
+    color: orangered; 
+}
+
+.logo h2{
+    color: orangered;
+    font-size: 42px;
+}
+
+.inp{
+    margin-left: 100px;
+}
+
+.inp input:first-child{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.inp input:last-child{
+    background-color: orangered;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid orangered;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -8px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.clearfix{
+    content: "";
+    position:absolute;
+    clear: both;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.col1{
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+.col1 h2{
+    color: #fff;
+    font-size: 44px;
+    letter-spacing: 2px;
+}
+
+.col1 h1{
+    color: orangered;
+    font-size: 56px;
+    letter-spacing: 2px;
+    margin: -15px 0px;
+}
+
+.col1 p{
+    color: #fff;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    margin-right: 100px;
+}
+
+.col1 button{
+    background-color: orangered;
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    transition: .4s;
+}
+
+.col1 button:hover{
+    background-color:#fff;
+}
+
+.col2{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    margin-right: 80px;
+    margin-top: 160px;
+    text-align: center;
+}
+
+.col2 .btn1{
+    padding: 8px 65px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: orange;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login .inp1, .inp2{
+    background-color: transparent;
+    color: #fff;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid orangered;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.login .btn2{
+    background-color: orangered;
+    padding: 10px 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    transition: .4s;
+}
+
+.login .btn2:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.login span{
+    color: #fff; 
+}
+
+.span__inp{
+    color: orangered;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.login .login__span{
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px; 
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold; 
+}
+
+.social p{
+    cursor: pointer;
+    transition: .4s;
+    font-size: 24px; 
+}
+
+.social p:hover{
+    color:orangered;
+    transform: scale(1.5);
+}
+
+
